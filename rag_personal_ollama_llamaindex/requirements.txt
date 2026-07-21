@@ -1,0 +1,17 @@
+llama-index-core
+llama-index-llms-ollama
+llama-index-embeddings-ollama
+llama-index-vector-stores-qdrant
+llama-index-readers-file
+qdrant-client
+pypdf
+python-docx
+python-pptx
+openpyxl
+pandas
+beautifulsoup4
+python-dotenv
+rich
+langdetect
+requests
+pytest
