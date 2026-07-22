@@ -103,7 +103,7 @@ def load_documents(config: AppConfig):
 
     cleaned = []
     for document in documents:
-        document.text = clean_text(document.text or "")
+        document.set_content(clean_text(document.text or ""))
         if document.text:
             cleaned.append(document)
 
